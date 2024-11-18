@@ -1,0 +1,20 @@
+.nav {
+    display: flex;
+    width: 100%;
+    // gap: 32px;
+    border-bottom: 1px solid #f4f4f5;
+    line-height: 50px;
+
+    max-width: 1440px;
+    margin: 0 auto;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 70px;
+    > a {
+        flex: 1 1 calc(100% / 12 - 10px);
+        box-sizing: border-box;
+        text-align: center;
+        letter-spacing: -0.03em;
+    }
+}

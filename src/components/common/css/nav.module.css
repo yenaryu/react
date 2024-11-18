@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #f4f4f5;
+  line-height: 50px;
+  max-width: 1440px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 70px;
+}
+.nav > a {
+  flex: 1 1 calc(8.3333333333% - 10px);
+  box-sizing: border-box;
+  text-align: center;
+  letter-spacing: -0.03em;
+}
